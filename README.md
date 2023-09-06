@@ -11,7 +11,7 @@ The data comes from one production run spanning several hours. Liveline Technolo
 ## Challenge  
 
 The data comes from a multi-stage continuous flow manufacturing process. In the first stage, Machines 1, 2, and 3 operate in parallel, and feed their outputs into a step that combines the flows. Output from the combiner is measured in 15 locations surrounding the outer surface of the material exiting the combiner.
-[Click Here More details about dataset](data\raw\notes_on_dataset.txt)
+[Click Here More details about dataset](data/raw/notes_on_dataset.txt)
 
 ```
 Primary Goal: Predict measurements of output from first stage.
@@ -25,4 +25,4 @@ Secondary Goal: Predict measurements of output from second stage.
 
 ## Data Visualisaion 
 
-Charts regarding this dataset are present at [reports\figures\plots](reports\figures\plots)
+Charts regarding this dataset are present [here](reports/figures/plots)
