@@ -1,0 +1,37 @@
+name: manufacturing-process-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10  # Choose the Python version you prefer
+
+  # Essential packages
+  - numpy
+  - pandas
+  - scikit-learn
+
+  # Data visualization
+  - matplotlib
+  - seaborn
+
+  # Jupyter Notebook/lab
+  - jupyterlab
+
+  # Deep learning frameworks
+  - tensorflow
+
+  # Additional packages
+  # - scipy
+  # - statsmodels
+  # - h5py
+  # - pillow
+  # - joblib
+  # - requests
+
+  # Optional: CUDA support for GPU acceleration (uncomment if needed)
+  # - cudatoolkit=11.0
+
+  # Optional: Specific versions or additional packages
+  # - matplotlib=3.4
+  # - gensim
+  - xgboost
